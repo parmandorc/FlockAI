@@ -1,0 +1,9 @@
+Binaries/
+Build/
+Intermediate/
+Saved/
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
