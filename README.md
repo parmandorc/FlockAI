@@ -14,7 +14,7 @@ Unreal Engine 4.7.6
 
 
 ## Instructions for the game
-- Basic movement using WASD or arrows.
+- Basic movement using WASD or arrows. (Note: You don't control the agents, you can just move the camera around)
 - Mouse wheel to zoom in and out.
 - Mouse left clic to spawn new Agents to the scene.
 (Hold left clic and move the mouse to orient the starting direction of the agent, or right clic to cancel spawning).
