@@ -4,6 +4,7 @@ Implementation of flocking behavior AI developed in Unreal Engine 4.
 Author: Pablo Rodriguez (parmandorc)
 
 ## Relevant links
+- Watch the [video preview!](https://youtu.be/39Wc7Bgj5gI)
 - Download [FlockAI.app (Mac OS X)](https://mega.co.nz/#!EsA1TBAb!AoFh6SDRl98dKjriK1uROJLv3vpmhL2yPJzb-aUtfKA)
 - Download [FlockAI.exe (Windows)](https://mega.co.nz/#!gxQDUSDY!qbo5SQzG-hMmCzlZ4kJxGFxImQv6CnssdCpCJHft7Ew)
 - My [LinkedIn profile](https://es.linkedin.com/in/parmandorc/en)
