@@ -7,7 +7,8 @@
 AAgent::AAgent()
 {
     PrimaryActorTick.bCanEverTick = true;
-    
+	PrimaryActorTick.bStartWithTickEnabled = true;
+
     // Initializing default values
     BaseMovementSpeed = 200.0f;
     MaxMovementSpeed = 300.0f;
@@ -29,12 +30,16 @@ AAgent::AAgent()
 
 void AAgent::BeginPlay()
 {
+	Super::BeginPlay();
+
     // Initialize move vector
     NewMoveVector = GetActorRotation().Vector().GetSafeNormal();
 }
 
 void AAgent::Tick(float DeltaSeconds)
 {
+	Super::Tick(DeltaSeconds);
+
     CurrentMoveVector = NewMoveVector;
     
     CalculateNewMoveVector();
