@@ -5,21 +5,9 @@ using System.Collections.Generic;
 
 public class FlockAIEditorTarget : TargetRules
 {
-	public FlockAIEditorTarget(TargetInfo Target)
+	public FlockAIEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-	}
-
-	//
-	// TargetRules interface.
-	//
-
-	public override void SetupBinaries(
-		TargetInfo Target,
-		ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
-		ref List<string> OutExtraModuleNames
-		)
-	{
-		OutExtraModuleNames.Add("FlockAI");
+		ExtraModuleNames.Add("FlockAI");
 	}
 }
